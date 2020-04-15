@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+ul {
+  list-style: square;
+  width: 70%;
+  margin: 0 auto;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+  border: 1px solid black;
+  margin-top: 2%;
+}
+
+.bottomSection {
+  border: 1px solid black;
+  width: 70%;
+  margin: 0 auto;
+  padding: 1%;
+  margin-top: 1%;
+  display: flex;
+  flex-direction: column;
+}
+h4,
+.far {
+  font-size: 26px;
+}
+.far {
+  font-size: 46px;
+}
+
+.bottomHeader {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+  margin: 0 auto;
+}
+.clear-btn {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 1%;
+  height: 2.9em;
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.overdue {
+  color: red;
+  font-weight: 900;
+}
+.bottomContent {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 2%;
+}
+.submit {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 2%;
+}
